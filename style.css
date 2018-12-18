@@ -1,0 +1,111 @@
+/*
+Theme Name: CityBook Child
+Theme URI: https://demowp.cththemes.com/citybook/
+Author: CTHthemes
+Author URI: http://themeforest.net/user/cththemes/
+Description: Directory Listing WordPress Theme
+Version: 1.0.0
+Tags: custom-background, custom-menu, editor-style, featured-images, post-formats, sticky-post, theme-options, translation-ready
+Template: citybook
+Text Domain: citybook-child
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+/* =Theme customization starts here
+------------------------------------------------------- */
+.hero-section .intro-item h2 {
+    font-size: 54px;
+	
+}
+/*
+.vis-header-search {
+	display: none;
+}
+
+.dark-header {
+    background: black;
+} 
+*/
+
+
+
+
+#wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    
+}
+
+
+.admin-bar .main-header {
+    top: 32px;
+    border-top: 4px solid #973cef;
+}
+
+.logo-holder {
+    float: left;
+    position: relative;
+    top: 0px;
+    height: 48px;
+}
+
+
+/*.fw-map {
+    height: 100vh;
+}*/
+
+
+
+.logo-holder img {
+    /* height: 100%; */
+    width: auto;
+    margin-top: 9%;
+}
+
+.attr-nav .cart-link {
+    color: #fff;
+    padding: 10px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.header-user-name {
+    position: relative;
+    float: left;
+    cursor: pointer;
+    color: #fff;
+    -webkit-transition: .2s;
+    transition: .2s;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.ol-zoom {
+    top: 5.5em;
+    left: .5em;
+}
+
+.footer-afropolitan ul li a, .footer-afropolitan p, .footer-afropolitan p a {
+ 	color: #fff;
+}
+
+
+/*Text Slide*/
+p.p-slide-text {
+  position: absolute;
+  transition: opacity .5s ease-in;
+  width: 100%;
+ line-height: 1em;
+ height: auto;
+ text-align: center;
+}
+
+p.p-slide-text + div.p-slide-text { opacity: 0; }
+
+
+
+
